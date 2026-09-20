@@ -31,24 +31,24 @@ window.speechSynthesis.speak(text_speak)
 }
 
 
-function wishMe(){
-    let day=new Date()
-    let hours=day.getHours()
-    if(hours>=0 && hours<12){
-        speak("good morning")
-    }
-    else if(hours>=12 && hours<16){
-        speak("good afternoon sir")
+// function wishMe(){
+//     let day=new Date()
+//     let hours=day.getHours()
+//     if(hours>=0 && hours<12){
+//         speak("good morning")
+//     }
+//     else if(hours>=12 && hours<16){
+//         speak("good afternoon sir")
 
-    }
-    else{
-        speak("good evening sir")
+//     }
+//     else{
+//         speak("good evening sir")
         
-    }
-}
-window.addEventListener('load',()=>{
-    wishMe()
-})
+//     }
+// }
+// window.addEventListener('load',()=>{
+//     wishMe()
+//})
 
 
 window.addEventListener("load", () => {
